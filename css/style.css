@@ -167,7 +167,7 @@
     }
 
     .title {
-        padding-right: 2rem;
+        padding-right: 1rem;
         padding-bottom: 1.1rem;
     }
 
@@ -198,9 +198,17 @@
         width: 100%;
     }
 
+    .name input{
+        width: 23rem;
+    }
+
     .cat{
         margin-top: 0.3rem;
         width: 100%;
+    }
+
+    .cat select{
+        width: 23rem;
     }
 
     .desc{
@@ -208,7 +216,7 @@
     }
 
     .desc textarea{
-        width: 25rem;
+        width: 23rem;
     }
 
     .fileandimp{
@@ -216,7 +224,7 @@
     }
 
     .submit button{
-        width: 25rem;
+        width: 23rem;
     }
 
 }
