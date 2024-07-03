@@ -37,10 +37,89 @@
 
 .head{
     width: 99%;
-    height: 32.5rem;
-    background: rgba(0, 255, 255, 0.2);
+    height: full;
+    background: rgba(0, 255, 255, 0.15);
     margin: auto;
     border-radius: 20px;
+}
+
+.htext{
+    padding-left: 14.7rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.tandc{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 13rem;
+}
+
+.name p{
+    padding-bottom: 0.3rem;
+}
+
+.name input{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.cat p{
+    padding-bottom: 0.3rem;
+}
+
+.cat select{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.desc{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.desc p{
+    padding-bottom: 0.3rem;
+}
+
+.desc textarea{
+    width: 54rem;
+    height: 10rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 0.5rem;
+
+}
+
+.fileandimp{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 1.7rem;
+    padding-top: 0.3rem;
+}
+
+.submit{
+    margin-top: 1.2rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+}
+
+.submit button{
+    width: 54rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 480px) {

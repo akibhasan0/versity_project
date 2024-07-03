@@ -16,9 +16,39 @@
         </div>
     </div>
     <section id="sec1" class="sec1">
-        <div class="head">
-            Hello Hridoy
-        </div>
+        <form class="head" action="your-action-url" method="post">
+            <h2 class="htext">Upload Forms by Service Sector</h2>
+            <div class="tandc">
+                <div class="name">
+                    <p>Title:</p>
+                    <input type="text" placeholder="Title Of The Document" name="title">
+                </div>
+                <div class="cat">
+                    <p>Category:</p>
+                    <select name="category" id="category" title="category">
+                        <option value="internals">For Internals</option>
+                        <option value="students">For Students</option>
+                    </select>
+                </div>
+            </div>
+            <div class="desc">
+                <p>Description:</p>
+                <textarea name="description" id="input" placeholder="Write a description"></textarea>
+            </div>
+            <div class="fileandimp">
+                <div class="file">
+                    <label for="file">Choose a file</label>
+                    <input type="file">
+                </div>
+                <div class="imp">
+                    <input type="checkbox" id="important" name="important">
+                    <label for="important">Important</label>
+                </div>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
     </section>
 </body>
 </html>
